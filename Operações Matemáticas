@@ -1,0 +1,44 @@
+double num1 = 10.5;
+        double num2 = 5.2;
+        double pi = 3.14; 
+        double raio = 2;
+        double ladoq = 4;
+        double dmaior = 10;
+        double dmenor = 2;
+        double larg = 8;
+        double alt = 6;
+        double nota1 = 6;
+        double nota2 = 10;
+        double nota3 = 8;
+        double nota4 = 8;
+        double quantnotas = 4;
+        
+        // Realizando operações matemáticas        
+        double soma = num1 + num2; 
+        double subtracao = num1 - num2;
+        double multiplicacao = num1 * num2;
+        double divisao = num2 != 0 ? num1 / num2 : Double.NaN; // Evita divisão por zero
+        double resto = num1 % num2;
+        double circunferencia = raio * raio * pi;
+        double areadoquadrado = ladoq * ladoq;
+        double areadotriangulo = alt * larg / 2; 
+        double areadolosango = dmaior * dmenor / 2; 
+        double areadoretangulo = alt * larg;
+        double media = nota1 + nota2 + nota3 + nota4 / quantnotas;
+        
+        //Exibindo os resultados
+        System.out.println("Resultado das Operações:");
+        System.out.println("Soma: " + soma);
+        System.out.println("Subtração: "+ subtracao);
+        System.out.println ("Multiplicacao:" + multiplicacao);
+        System.out.println ("Divisao: " + (num2 != 0 ? divisao :
+                "Indefinida(divisão por zero)"));
+        System.out.println ("Resto:" + resto);
+        System.out.println ("Circunferência: " + circunferencia);
+        System.out.println ("Área do Quadrado: " + areadoquadrado);
+        System.out.println ("Área do Triângulo: " + areadotriangulo);
+        System.out.println ("Áreado Losango: " + areadolosango);        
+        System.out.println ("Área do Retângulo: " + areadoretangulo);
+        System.out.println ("Média: " + media);
+    }
+}
